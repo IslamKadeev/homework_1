@@ -46,10 +46,6 @@ def count_find_num(primesL, limit):
 
     return result
 
-primesL = [2, 5, 7]
-limit = 500
-assert count_find_num(primesL, limit) == [5, 490]
-
 primesL = [2, 3]
 limit = 200
 assert count_find_num(primesL, limit) == [13, 192]
